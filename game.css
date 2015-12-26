@@ -1,0 +1,22 @@
+.bg-1 {
+   			 background-color: #1abc9c; /* Green */
+   			 color: #ffffff;
+			 border-radius:5px;
+			}
+		.bg-2 {
+    			background-color: #474e5d; /* Dark Blue */
+   			 color: #ffffff;
+			border-radius:5px;
+			}
+		.but{
+			padding:2px;
+		}
+		.col{
+			background-color: #1abc9c;
+			border-radius:25px;
+			horizontel-align: middle;
+			}
+		div.col:hover {
+   			 background-color: rgba(0, 255, 0, 0.3);
+			border-radius:10px;
+		}

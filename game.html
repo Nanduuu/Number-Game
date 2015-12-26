@@ -1,0 +1,54 @@
+<html>
+<title>Number Game</title>
+<head>
+
+	 <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="game.css">
+	
+</head>
+
+
+<body>
+	<div  align="center" class="container bg-1 text-center">
+		<h1 color="white">NUMBER GAME</h1>
+	</div>
+
+	</br>
+	<div class="row">
+		<div align="center" class="container">
+	
+		<div class="row">
+			<div class="col-md-1 col center-block" ><h1 id="one" onclick="swap(this.id);">1</h1></div>
+			<div class="col-md-1 col center-block "><h1 id="two" onclick="swap(this.id);">2</h1></div>
+			<div class="col-md-1 col center-block "><h1 id="three" onclick="swap(this.id);">3</h1></div>
+		</div>
+		<div class="row">
+			<div class="col-md-1 col"><h1 id="four" onclick="swap(this.id);">4</h1></div>
+			<div class="col-md-1 col"><h1 id="five" onclick="swap(this.id);">5</h1></div>
+			<div class="col-md-1 col"><h1 id="six" onclick="swap(this.id);">6</h1></div>
+		</div>
+		<div class="row">
+			<div class="col-md-1 col"><h1 id="seven" onclick="swap(this.id);">7</h1></div>
+			<div class="col-md-1 col"><h1 id="eight" onclick="swap(this.id);">8</h1></div>
+			<div class="col-md-1 col"><h1 id="nine" onclick="swap(this.id);">9</h1></div>
+		</div>
+	
+		</div>
+	</div>
+	
+	</br>
+	<div class="container bg-1 text-center but">
+		<button type="button"  class="btn btn-primary" id="new" onclick="newgame()">New Game</button></br>
+	</div>
+
+<script src="game.js"></script>
+</body>
+</html>
